@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Artificial_Inteligence</title>
+    <style>
+        body{
+            margin-top: 15px;
+            margin-left: 14px;
+            margin-right: 14px;
+        }
+        .p1{
+            height: 700px;
+            background-color: rgb(204, 194, 194);
+            border-radius: 20px;
+        }
+        img{
+            height: 600px;
+            width: 600px;
+            border: 3px solid white;
+            border-radius: 15px;
+            position: relative;
+            left: 850px;
+            top: 70px;
+        }
+        .r1c1{
+            color: black;
+            position: relative;
+            left: 60px;
+            bottom: 570px;
+        }
+        .r1c2{
+            color: black;
+            position: relative;
+            left: 450px;
+            bottom: 590px;
+        }
+        .r1c3{
+            color: black;
+            position: relative;
+            left: 560px;
+            bottom: 608px;
+        }
+        .r1c4{
+            color: black;
+            position: relative;
+            left: 670px;
+            bottom: 628px;
+        }
+        .r1c5{
+            color: black;
+            position: relative;
+            left: 780px;
+            bottom: 646px;
+        }
+        .r1c6{
+            color: black;
+            position: relative;
+            left: 890px;
+            bottom: 665px;
+        }
+        .r1c7{
+            color: black;
+            position: relative;
+            left: 998px;
+            bottom: 690px;
+            border: 1px solid black;
+            background-color: white;
+            border-radius: 15px;
+            width: 128px;
+            height: 20px;
+            text-align: center;
+            padding: 6px;
+        }
+        .r1c7c{
+            height: 12px;
+            width: 12px;
+            position: relative;
+            left: 10px;
+            top: 4px;
+        }
+        .r1c8{
+            color: black;
+            position: relative;
+            left: 1200px;
+            bottom: 725px;
+            border: 1px solid black;
+            background-color: white;
+            border-radius: 15px;
+            width: 130px;
+            height: 20px;
+            text-align: center;
+            padding: 6px;
+        }
+        .r1c8c{
+            height: 12px;
+            width: 12px;
+            position: relative;
+            left: 8px;
+            top: 4px;
+        }
+        .r2{
+            position: relative;
+            bottom: 700px;
+            left: 70px;
+            color: rgb(49, 47, 47);
+        }
+        .r3{
+            position: relative;
+            bottom: 700px;
+            left: 70px;
+            color: rgb(49, 47, 47);
+            font-style: oblique;
+        }
+        .r4{
+            position: relative;
+            bottom: 750px;
+            left: 70px;
+            font-size: 45px;
+            font-weight: 600;
+            text-transform: uppercase;
+            color: rgb(49, 47, 47);
+            font-family: 'Orbitron', sans-serif;
+            letter-spacing: 3px;
+        }
+        .r5{
+            position: relative;
+            bottom: 820px;
+            left: 70px;
+            color: rgb(49, 47, 47);
+            font-style: oblique;
+            font-size: 20px;
+        }
+        .r6{
+            color: black;
+            position: relative;
+            left: 100px;
+            bottom: 820px;
+            border: 1px solid black;
+            background-color: white;
+            border-radius: 15px;
+            width: 130px;
+            text-align: center;
+            padding: 8px;
+        }
+        .r7{
+            color: black;
+            position: relative;
+            left: 300px;
+            bottom: 854px;
+            border: 1px solid black;
+            background-color: white;
+            border-radius: 15px;
+            width: 130px;
+            height: 20px;
+            text-align: center;
+            padding: 6px;
+        }
+        .r7c{
+            height: 13px;
+            width: 13px;
+            position: relative;
+            left: 7px;
+            top: 5px;
+        }
+        .r8{
+            background-color: black;
+            color: white;
+            display: flex;
+            border: 1px solid black;
+            border-top-right-radius: 50px;
+            border-bottom-left-radius: 50px;
+            border-bottom-right-radius: 15px;
+            border-top-left-radius: 15px;
+            height: 130px;
+            width: 600px;
+            position: relative;
+            left: 90px;
+            bottom: 830px;
+        }
+        .c1{
+            position: relative;
+            left: 50px;
+            top: 2px;
+            font-size: 25px;
+        }
+        .c1r1{
+            position: relative;
+            left: -30px;
+            top: 40px;
+            font-size: 23px;
+        }
+        .c2{
+            position: relative;
+            left: 50px;
+            top: 2px;
+            font-size: 25px;
+        }
+        .c2r1{
+            position: relative;
+            left: -30px;
+            top: 40px;
+            font-size: 23px;
+        }
+        .c3{
+            position: relative;
+            left: 50px;
+            top: 2px;
+            font-size: 25px;
+        }
+        .c3r1{
+            position: relative;
+            left: -30px;
+            top: 40px;
+            font-size: 23px;
+        }
+        .c8{
+            border: 1px solid gray;
+            height: 40px;
+            position: relative;
+            bottom: 930px;
+            left: 310px;
+            width: 0;
+        }
+        .c9{
+            border: 1px solid gray;
+            height: 40px;
+            position: relative;
+            bottom: 970px;
+            left: 500px;
+            width: 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="p1">
+        <div class="r1">
+            <img src="./AI Cyborg in a Futuristic HUD.png" alt="">
+            <div class="r1c1">Logo</div>
+            <div class="r1c2">Product</div>
+            <div class="r1c3">Solutins</div>
+            <div class="r1c4">Resources</div>
+            <div class="r1c5">Company</div>
+            <div class="r1c6">Pricing</div>
+            <div class="r1c7">Contact Me <img src="./up-right-arrow.png" alt="" class="r1c7c"></div>
+            <div class="r1c8">Start Building <img src="./up-right-arrow.png" alt="" class="r1c8c"></div>
+        </div>
+        <div class="r2">
+            <h4>AI Infrasrtucture for mordern teams</h4>
+        </div>
+        <div class="r3">
+            <h2>BUILD SMARTER PRODUCTS POWERED BY</h2>
+        </div>
+        <div class="r4">
+            <h1>
+                ARTIFICIAL <br>
+                INTELLIGENCE
+            </h1>
+        </div>
+        <div class="r5">
+            <h3>
+                Transform complex workflows into intelligent experiences with <br>
+                enterprise-grade AI solutions designedfor startups,product teams, <br>
+                and global business.
+            </h3>
+        </div>
+        <div class="r6">Book A Demo</div>
+        <div class="r7">Start Building <img src="./up-right-arrow.png" alt="" class="r7c"></div>
+        <div class="r8">
+            <h2 class="c1">98.7%</h2> <br>
+            <h3 class="c1r1">Model Accuracy</h3>
+            <h2 class="c2">120+</h2> <br>
+            <h3 class="c2r1">Global Clients</h3>
+            <h2 class="c3">24/7</h2> <br>
+            <h3 class="c3r1">AI atomation</h3>
+        </div>
+        <div class="c8"></div>
+        <div class="c9"></div>
+    </div>
+</body>
+</html>

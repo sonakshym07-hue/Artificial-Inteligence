@@ -1,2 +1,0 @@
-# Artificial-Inteligence
-AI product
